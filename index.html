@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitu Kumar | Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">My<span>Portfolio</span></div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="theme-btn" onclick="toggleTheme()">🌙</button>
+    </nav>
+</header>
+
+<section class="hero" id="about">
+    <div class="hero-container">
+        <img src="./cute-anime-boy-profile-picture-k2i3pwrorzcmosni.jpg" alt="Profile">
+        <div class="hero-content">
+            <h1>Hi, I'm <span>Bitu Kumar</span></h1>
+            <p>B.Tech Student | Full Stack Developer | MERN Enthusiast</p>
+            <a href="#projects" class="btn">View Projects</a>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills">
+        <div class="skill">
+            HTML & CSS
+            <div class="progress"><span style="width:90%"></span></div>
+        </div>
+        <div class="skill">
+            JavaScript
+            <div class="progress"><span style="width:80%"></span></div>
+        </div>
+        <div class="skill">
+            MERN Stack
+            <div class="progress"><span style="width:70%"></span></div>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects">
+        <div class="project">Parking System using DSA</div>
+        <div class="project">Portfolio Website</div>
+        <div class="project">Food Order and Delivery System</div>
+    </div>
+</section>
+
+<section class="section">
+    <h2 class="section-title">My Gallery</h2>
+    <div class="gallery">
+        <img src="https://picsum.photos/300/200?1">
+        <img src="https://picsum.photos/300/200?2">
+        <img src="https://picsum.photos/300/200?3">
+    </div>
+</section>
+
+
+<section class="section" id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <form class="contact-form" onsubmit="return validateForm()">
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="email" id="email" placeholder="Your Email">
+        <textarea id="message" placeholder="Your Message"></textarea>
+        <button class="btn">Send Message</button>
+        <p id="form-msg"></p>
+    </form>
+</section>
+
+<footer>
+    <p>Connect with me</p>
+    <div class="socials">
+        <a href="https://github.com/Bitu1269"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/bitu-kumar-825815284/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://Twitter.com/bitukumar1269"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p class="copy">© 2026 Bitu Kumar</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
